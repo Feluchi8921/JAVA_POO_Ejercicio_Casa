@@ -22,6 +22,24 @@ public class Ciudad {
         this.cocinas = 1;
     }
 
+    public Ciudad(String ciudad, String barrio, String color) {
+        this.ciudad = ciudad;
+        this.barrio = barrio;
+        this.color = color;
+    }
+
+    public Ciudad(String barrio, String color, int pisos) {
+        this.barrio = barrio;
+        this.color = color;
+        this.pisos = pisos;
+    }
+
+    public Ciudad(int pisos, int habitaciones, int banios, int cocinas) {
+        this.pisos = pisos;
+        this.habitaciones = habitaciones;
+        this.banios = banios;
+        this.cocinas = cocinas;
+    }
 
     //Metodos
     //Getters
